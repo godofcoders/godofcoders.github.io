@@ -15,11 +15,11 @@ python3 -m http.server 4173
 Open http://localhost:4173. There is no install or build step.
 
 - `index.html`: name, headline, latest games, engineering repositories, expertise, experience, education, and contact.
-- `app.js`: the other nine projects, external links, and category filters.
+- `app.js`: the other eight projects, external links, and category filters.
 - `style.css`: desktop, tablet, and phone layouts.
 - `assets/`: locally hosted game artwork and fonts.
 
-Latest games are Ace Maze, Word Zenith, and Word Search Go, in that order. Remaining projects use a mixed, fixed order to keep browsing stable. Both Word Zenith and Word Search Go link to the app ID supplied by the owner, `com.wordgame.wordzenith`, currently titled Word Search Go. Their relationship is stated on the page.
+Latest games are Ace Maze, Crossword Swipe, and Word Search Go, in that order. Word Zenith and Word Search Go are the same game and are represented by one Word Search Go tile. Crossword Swipe is featured in Latest Games and is not duplicated in the remaining gallery. Remaining projects use a mixed, fixed order.
 
 ## Resume and GitHub content
 
@@ -48,7 +48,7 @@ Visual direction: https://blacksamael.github.io/BlackSamael/
 
 - Ace Maze artwork: https://play.google.com/store/apps/details?id=arrows.puzzle.escape.maze.out.arrowscapes
 - Word Search Go / Word Zenith: https://play.google.com/store/apps/details?id=com.wordgame.wordzenith
-- Crossword: https://play.google.com/store/apps/details?id=com.wordgame.zen.crossword.free.word.puzzle.wow
+- Crossword Swipe: https://play.google.com/store/apps/details?id=com.wordgame.zen.crossword.free.word.puzzle.wow
 - City of Chaos: https://play.google.com/store/apps/details?id=com.vnlentertainment.coc
 - Ledger City: https://ledgercitygame.com
 - Vulcan's Tower Defense: https://apps.apple.com/in/app/vulcans-tower-defense/id1658249651
