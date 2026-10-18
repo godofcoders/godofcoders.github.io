@@ -2,20 +2,22 @@
 
 A responsive, buildless portfolio for Akash Dhyani, Lead Unity Engineer.
 
+Live website: https://godofcoders.github.io/
+
 ## Preview and edit
 
-Serve `dist/` using any static web server. For example, from this folder:
+Serve this repository root using any static web server. For example:
 
 ```sh
-python3 -m http.server 4173 --directory dist
+python3 -m http.server 4173
 ```
 
 Open http://localhost:4173. There is no install or build step.
 
-- `dist/index.html`: name, headline, latest games, engineering repositories, expertise, experience, education, and contact.
-- `dist/app.js`: the other nine projects, external links, and category filters.
-- `dist/style.css`: desktop, tablet, and phone layouts.
-- `dist/assets/`: locally hosted game artwork and fonts.
+- `index.html`: name, headline, latest games, engineering repositories, expertise, experience, education, and contact.
+- `app.js`: the other nine projects, external links, and category filters.
+- `style.css`: desktop, tablet, and phone layouts.
+- `assets/`: locally hosted game artwork and fonts.
 
 Latest games are Ace Maze, Word Zenith, and Word Search Go, in that order. Remaining projects use a mixed, fixed order to keep browsing stable. Both Word Zenith and Word Search Go link to the app ID supplied by the owner, `com.wordgame.wordzenith`, currently titled Word Search Go. Their relationship is stated on the page.
 
